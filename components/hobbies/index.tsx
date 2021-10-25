@@ -1,6 +1,6 @@
 import React from "react";
-// Data
-import { hobbies } from "@data/hobbies";
+// Models
+import { Hobbie } from "@models/hobbie";
 // Styled components
 import { colors } from "@styles/variables/colors";
 import { StyledBlankCard } from "@styles/shared/blankCard";
@@ -8,7 +8,11 @@ import { StyledHobbies } from "@styles/components/hobbies";
 import { Title } from "@styles/shared/title";
 import { Card } from "@components/card";
 
-export const Hobbies = () => {
+interface HobbieProps {
+  hobbies: Hobbie[];
+}
+
+export const Hobbies = ({ hobbies = [] }: HobbieProps) => {
   return (
     <>
       <StyledBlankCard>

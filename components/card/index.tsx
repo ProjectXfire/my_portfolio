@@ -33,6 +33,7 @@ export const Card = ({
       <Image
         width={200}
         height={200}
+        quality={100}
         objectFit="cover"
         src={image}
         alt="project-image"

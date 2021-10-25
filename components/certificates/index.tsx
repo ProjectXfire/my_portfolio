@@ -1,8 +1,8 @@
 import React from "react";
-// Data
-import { certificates } from "@data/certificates";
 // Providers
 import { Pagination } from "semantic-ui-react";
+// Models
+import { Certificate } from "@models/certificate";
 // Utils
 import { usePagination } from "@utils/hook/usePagination";
 // Styled components
@@ -13,7 +13,11 @@ import { StyledCertificates } from "@styles/components/certificates";
 import { Card } from "@components/card";
 import { StyledPaginationContainer } from "@styles/shared/paginationContainer";
 
-export const Certificates = () => {
+interface CertificateProps {
+  certificates: Certificate[];
+}
+
+export const Certificates = ({ certificates = [] }: CertificateProps) => {
   const {
     dataPerPage,
     totalData,

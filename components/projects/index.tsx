@@ -5,9 +5,7 @@ import { Pagination } from "semantic-ui-react";
 import { usePagination } from "@utils/hook/usePagination";
 // Models
 import { Project } from "@models/project";
-// Data
-import { tags } from "@data/tags";
-import { projects } from "@data/projects";
+import { Tag } from "@models/tag";
 // Components
 import { Card } from "@components/card";
 // Styled components
@@ -22,7 +20,12 @@ import {
   StyledProjects,
 } from "@styles/components/projects";
 
-export const Projects = () => {
+interface ProjectProps {
+  projects: Project[];
+  tags: Tag[];
+}
+
+export const Projects = ({ projects, tags }: ProjectProps) => {
   const [active, setActive] = useState(0);
   const [filteredData, setFilteredData] = useState<Project[]>([]);
   const {
@@ -102,6 +105,7 @@ export const Projects = () => {
                   color={colors.lightGreen}
                   bkgColor={colors.black}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Demo
                 </StyledAnchor>,
@@ -112,6 +116,7 @@ export const Projects = () => {
                   color={colors.lightGreen}
                   bkgColor={colors.black}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Code
                 </StyledAnchor>,

@@ -1,6 +1,10 @@
-import type { NextPage } from "next";
 import Head from "next/head";
 import { Container } from "@styles/container";
+// Data
+import { tags } from "@data/tags";
+import { projects } from "@data/projects";
+import { hobbies } from "@data/hobbies";
+import { certificates } from "@data/certificates";
 // Components
 import { Hero } from "@components/hero";
 import { ProfileSkills } from "@components/profileSkills";
@@ -10,7 +14,7 @@ import { Projects } from "@components/projects";
 import { Hobbies } from "@components/hobbies";
 import { Certificates } from "@components/certificates";
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <div>
       <Head>
@@ -24,9 +28,9 @@ const Home: NextPage = () => {
           <Profile />
           <Skills />
         </ProfileSkills>
-        <Projects />
-        <Hobbies />
-        <Certificates />
+        <Projects projects={projects} tags={tags} />
+        <Hobbies hobbies={hobbies} />
+        <Certificates certificates={certificates} />
       </Container>
     </div>
   );
