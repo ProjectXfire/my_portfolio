@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
 // Providers
 import { Pagination } from "semantic-ui-react";
 // Utils
@@ -96,24 +95,26 @@ export const Projects = () => {
               text={project.description}
               image={project.image}
               actionButtons={[
-                <Link href={project.demo} key={1} passHref>
-                  <StyledAnchor
-                    weight={true}
-                    color={colors.lightGreen}
-                    bkgColor={colors.black}
-                  >
-                    Demo
-                  </StyledAnchor>
-                </Link>,
-                <Link href={project.code} key={2} passHref>
-                  <StyledAnchor
-                    weight={true}
-                    color={colors.lightGreen}
-                    bkgColor={colors.black}
-                  >
-                    Code
-                  </StyledAnchor>
-                </Link>,
+                <StyledAnchor
+                  key={1}
+                  href={project.demo}
+                  weight={true}
+                  color={colors.lightGreen}
+                  bkgColor={colors.black}
+                  target="_blank"
+                >
+                  Demo
+                </StyledAnchor>,
+                <StyledAnchor
+                  key={2}
+                  href={project.code}
+                  weight={true}
+                  color={colors.lightGreen}
+                  bkgColor={colors.black}
+                  target="_blank"
+                >
+                  Code
+                </StyledAnchor>,
               ]}
             />
           ))}
