@@ -1,14 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Delius", cursive;
+  min-width: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Delius", cursive;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: "Delius", cursive;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  font-family: "Delius", cursive;
 }
 
 * {
