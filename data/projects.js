@@ -136,7 +136,7 @@ export const projects = [
   },
   {
     name: "My Unsplash",
-    tags: ["NEXTJS", "#REACT", "#RESPONSIVE"],
+    tags: ["#NEXTJS", "#REACT", "#RESPONSIVE"],
     description:
       "This project show a list of photos that you can create using a correct URL. You will see the photo created at first. You can search a photo by its label. The page is responsive and for mobile I have used a sidebar that is opened using a hamburger botton. If you want to delete a photo you can put the mouse over it, and then select delete, it will asking you the password, the password is that you used when you create the photo.",
     demo: "https://617ad2d91030f91b66df0cbe--affectionate-perlman-d9ad54.netlify.app/",
