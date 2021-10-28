@@ -5,11 +5,13 @@ import project4 from "../assets/images/project_4.jpg";
 import project5 from "../assets/images/project_5.jpg";
 import project6 from "../assets/images/project_6.jpg";
 import project7 from "../assets/images/project_7.jpg";
+import project8 from "../assets/images/project_8.jpg";
 import project9 from "../assets/images/project_9.jpg";
 import project10 from "../assets/images/project_10.jpg";
 import project11 from "../assets/images/project_11.jpg";
 import project12 from "../assets/images/project_12.jpg";
 import project13 from "../assets/images/project_13.jpg";
+import project14 from "../assets/images/project_14.jpg";
 import project16 from "../assets/images/project_16.jpg";
 import project17 from "../assets/images/project_17.jpg";
 import project18 from "../assets/images/project_18.jpg";
@@ -79,6 +81,15 @@ export const projects = [
     image: project7,
   },
   {
+    name: "Job Search",
+    tags: ["#REACT", "#NEXTJS", "#RESPONSIVE"],
+    description:
+      "In this project, I have create a Job Search. It Show a list of jobs by default in the city of New York, you can change it using the radio buttons or in the input search. Each job in the list show a brief detail and when it was posted. If you wan to see the detail, please click in the job. It will open another page and you will see all the description of it. The API used is themuse.",
+    demo: "https://hardcore-jennings-eb7c96.netlify.app/",
+    code: "https://github.com/ProjectXfire/devChallenges_Jobs",
+    image: project8,
+  },
+  {
     name: "Buttons Styles",
     tags: ["#REACT"],
     description:
@@ -122,6 +133,15 @@ export const projects = [
     demo: "https://adoring-kirch-8f2f82.netlify.app/",
     code: "https://github.com/ProjectXfire/devChallenges_Quote_Generator",
     image: project13,
+  },
+  {
+    name: "My Unsplash",
+    tags: ["NEXTJS", "#REACT", "#RESPONSIVE"],
+    description:
+      "This project show a list of photos that you can create using a correct URL. You will see the photo created at first. You can search a photo by its label. The page is responsive and for mobile I have used a sidebar that is opened using a hamburger botton. If you want to delete a photo you can put the mouse over it, and then select delete, it will asking you the password, the password is that you used when you create the photo.",
+    demo: "https://617ad2d91030f91b66df0cbe--affectionate-perlman-d9ad54.netlify.app/",
+    code: "https://github.com/ProjectXfire/devChallenges_My_Unsplash_FE",
+    image: project14,
   },
   {
     name: "Crypto App",

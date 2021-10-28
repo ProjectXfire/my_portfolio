@@ -1,4 +1,5 @@
 export const skillsFrontEnd = [
+  { name: "HTML", percent: 75 },
   { name: "Javascript", percent: 70 },
   { name: "CSS", percent: 75 },
   { name: "Redux", percent: 50 },
