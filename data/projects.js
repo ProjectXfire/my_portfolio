@@ -145,7 +145,7 @@ export const projects = [
     image: project14,
   },
   {
-    name: "WikiCar",
+    name: "WikiCat",
     tags: ["#NEXTJS", "#REACT", "#RESPONSIVE"],
     description:
       "This project is a wikipedia of cats, you can see the description of many cat breeds. In the main page you will see a dropdown menu that you can select the breed and see the detail, for responsive, it is a button that will open a sidebar in the top, and you can select the breed. There is a section to see the top 10 of cats, in this case only will show the first 10 cats from the API response. And finally, the benefits section, in it will show any benefits if you decide to have a cat. The API used is thecatapi.",
