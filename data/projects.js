@@ -12,6 +12,7 @@ import project11 from "../assets/images/project_11.jpg";
 import project12 from "../assets/images/project_12.jpg";
 import project13 from "../assets/images/project_13.jpg";
 import project14 from "../assets/images/project_14.jpg";
+import project15 from "../assets/images/project_15.jpg";
 import project16 from "../assets/images/project_16.jpg";
 import project17 from "../assets/images/project_17.jpg";
 import project18 from "../assets/images/project_18.jpg";
@@ -142,6 +143,15 @@ export const projects = [
     demo: "https://617ad2d91030f91b66df0cbe--affectionate-perlman-d9ad54.netlify.app/",
     code: "https://github.com/ProjectXfire/devChallenges_My_Unsplash_FE",
     image: project14,
+  },
+  {
+    name: "WikiCar",
+    tags: ["#NEXTJS", "#REACT", "#RESPONSIVE"],
+    description:
+      "This project is a wikipedia of cats, you can see the description of many cat breeds. In the main page you will see a dropdown menu that you can select the breed and see the detail, for responsive, it is a button that will open a sidebar in the top, and you can select the breed. There is a section to see the top 10 of cats, in this case only will show the first 10 cats from the API response. And finally, the benefits section, in it will show any benefits if you decide to have a cat. The API used is thecatapi.",
+    demo: "https://dev-challenges-catwiki.vercel.app",
+    code: "https://github.com/ProjectXfire/devChallenges_catwiki",
+    image: project15,
   },
   {
     name: "Crypto App",
