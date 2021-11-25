@@ -16,6 +16,8 @@ import project15 from "../assets/images/project_15.jpg";
 import project16 from "../assets/images/project_16.jpg";
 import project17 from "../assets/images/project_17.jpg";
 import project18 from "../assets/images/project_18.jpg";
+import project19 from "../assets/images/project_19.jpg";
+import project20 from "../assets/images/project_20.jpg";
 
 export const projects = [
   {
@@ -179,5 +181,23 @@ export const projects = [
     demo: "https://determined-boyd-3ed7ff.netlify.app/home",
     code: "https://github.com/ProjectXfire/platzi_angular_ecommerce",
     image: project18,
+  },
+  {
+    name: "Login App",
+    tags: ["#ANGULAR", "#RESPONSIVE"],
+    description:
+      "This project is a login page, you can create your own account or login using oauth, you have three options, google, facebook and github. When the account is created you can see the detail of it and change some values, for example the photo. If you want to close the session, in the top menu there is a down arrow that will display dropdown, select the logout option.",
+    demo: "https://cranky-mirzakhani-fe9180.netlify.app/login",
+    code: "https://github.com/ProjectXfire/devChallenges_authentication",
+    image: project19,
+  },
+  {
+    name: "Login App",
+    tags: ["#REACT", "#NEXTJS", "#RESPONSIVE"],
+    description:
+      "This project is a chat page. You can send and receive message in real-time with others users that are joined in the same channel.",
+    demo: "https://dev-challenges-chat.vercel.app/login",
+    code: "https://github.com/ProjectXfire/devChallenges_Chat",
+    image: project20,
   },
 ];
