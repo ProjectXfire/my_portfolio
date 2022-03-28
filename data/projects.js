@@ -18,6 +18,7 @@ import project17 from "../assets/images/project_17.jpg";
 import project18 from "../assets/images/project_18.jpg";
 import project19 from "../assets/images/project_19.jpg";
 import project20 from "../assets/images/project_20.jpg";
+import project21 from "../assets/images/project_21.jpg";
 
 export const projects = [
   {
@@ -199,5 +200,14 @@ export const projects = [
     demo: "https://dev-challenges-chat.vercel.app/login",
     code: "https://github.com/ProjectXfire/devChallenges_Chat",
     image: project20,
+  },
+  {
+    name: "Thullo App",
+    tags: ["#REACT", "#NEXTJS", "#RESPONSIVE"],
+    description:
+      "This project is a tasks list. You can create a board and decided if this will be public or private, you can change it once it is created.\nIn the board, you can create the differents list that will content the tasks, add or remove members, assign permissions and add a board description.\nIn the task, you can will move it into the differents list, add or remove task responsible, add a cover, add labels, add attachments, add a description and add comments.",
+    demo: "https://comfy-manatee-d1a101.netlify.app/login",
+    code: "https://github.com/ProjectXfire/devChallenges_Thullo",
+    image: project21,
   },
 ];
