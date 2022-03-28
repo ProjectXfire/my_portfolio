@@ -205,7 +205,7 @@ export const projects = [
     name: "Thullo App",
     tags: ["#REACT", "#NEXTJS", "#RESPONSIVE"],
     description:
-      "This project is a tasks list. You can create a board and decided if this will be public or private, you can change it once it is created.\nIn the board, you can create the differents list that will content the tasks, add or remove members, assign permissions and add a board description.\nIn the task, you can will move it into the differents list, add or remove task responsible, add a cover, add labels, add attachments, add a description and add comments.",
+      "This project is a tasks list progression. You can create a board and decided if this will be public or private, you can change it once it is created.\nIn the board, you can create the differents list that will content the tasks, add or remove members, assign permissions and add a board description.\nIn the task, you can will move it into the differents list, add or remove the responsible person, add a cover, add labels, add attachments, add a description and add comments.",
     demo: "https://comfy-manatee-d1a101.netlify.app/login",
     code: "https://github.com/ProjectXfire/devChallenges_Thullo",
     image: project21,
